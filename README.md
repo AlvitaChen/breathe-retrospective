@@ -85,6 +85,6 @@ Made with care and insomnia.
 
 ---
 
-> "Go outside, flirt with recruiters, and refresh your portfolio."
+> "Go outside, have coffee with recruiters, and refresh your portfolio."
 
 (Unless the AQI says ☠️. Then maybe just journal with iced coffee.)

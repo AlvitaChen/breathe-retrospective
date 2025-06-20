@@ -40,8 +40,9 @@ const MultiCityJobChart = () => {
   });
 
   return (
-    <div className="city-chart-container">
-      <h2>City Comparison — PM Job Openings</h2>
+    <div className="city-chart-container multi-city-job">
+      <h3>💼 Product Manager Job Openings by City</h3>
+      <p className="data-source-note">Source: LinkedIn, manually scraped</p>
       <ResponsiveContainer height={300}>
         <LineChart
           data={combinedData}

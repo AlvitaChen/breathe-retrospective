@@ -1,7 +1,8 @@
 import './App.css';
 import CityChart from './CityChart';
 import MultiCityAqiChart from './MultiCityAqiChart';
-import MultiCityJobChart from './MultiCityJobChart';
+import MultiCityJobChart from './MultiCityJobChart.jsx';
+import SocialConnectionChart from './SocialConnectionChart';
 
 const cities = [
   'Jakarta',
@@ -24,6 +25,7 @@ function App() {
 
       <MultiCityAqiChart />
       <MultiCityJobChart />
+      <SocialConnectionChart />
 
       {cities.map((city) => (
         <CityChart key={city} city={city} />

@@ -5,6 +5,45 @@
   text-align: center;
 }
 
+/* ----- Section Headers and Info ----- */
+.app h2 {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.data-source-note {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* ----- Grouped Legend Colors (not affecting tooltip behavior) ----- */
+.recharts-legend-item-text {
+  font-size: 0.85rem;
+  color: #444;
+  white-space: nowrap;
+}
+
+/* ✂️ Removed the line that disables all tooltips */
+/* .recharts-tooltip-wrapper {
+  display: none;
+} */
+
+/* ----- Color Tagging by City Group (optional reference, handled in JS) ----- */
+.city-jakarta, .city-kl, .city-singapore {
+  stroke: #1f77b4;
+}
+
+.city-taipei, .city-hongkong, .city-bangkok {
+  stroke: #2ca02c;
+}
+
+.city-manila, .city-dubai {
+  stroke: #d62728;
+}
+
+/* ----- Logo Spin Stuff (Default Vite React) ----- */
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -26,7 +65,6 @@
     transform: rotate(360deg);
   }
 }
-
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
@@ -41,6 +79,7 @@
   color: #888;
 }
 
+/* ----- App Container ----- */
 .app {
   max-width: 960px;
   margin: 0 auto;
@@ -48,11 +87,25 @@
   text-align: center;
 }
 
+/* ----- Chart Blocks ----- */
 .city-chart-container {
-  background: #1e1e1e;
+  background: #90f3df;
   padding: 2rem 1rem;
   margin: 2rem auto;
   max-width: 800px;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+/* ----- Section Backgrounds by Purpose ----- */
+.multi-city-job {
+  background: #ffe5ec;
+}
+
+.multi-city-aqi {
+  background: #e0f7fa;
+}
+
+.social-connection {
+  background: #fff3cd;
 }

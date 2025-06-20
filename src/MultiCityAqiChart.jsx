@@ -48,8 +48,9 @@ const MultiCityAqiChart = () => {
   };
 
   return (
-    <div className="city-chart-container">
-      <h2>City Comparison — AQI</h2>
+    <div className="city-chart-container multi-city-aqi">
+      <h3>🌫️ Air Quality Index (AQI) by City</h3>
+      <p className="data-source-note">Source: OpenWeatherMap</p>
       <ResponsiveContainer height={300}>
         <LineChart
           data={combinedData}

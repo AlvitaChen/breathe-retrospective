@@ -81,7 +81,7 @@ Local dashboard should now be visible at [http://localhost:5173](http://localhos
 
 ## 🤠 Author
 
-Made with care and insomnia by [@AlvitaChen]
+Made with care and insomnia.
 
 ---
 
